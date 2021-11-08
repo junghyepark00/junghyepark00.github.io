@@ -9,7 +9,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ```javascript
 const Razorpay = require('razorpay');
 
-let rzp = Razorpay({
+let rzp = Razorpay(
 	key_id: 'KEY_ID',
 	secret: 'name'
 });
